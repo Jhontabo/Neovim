@@ -3,6 +3,6 @@
 -- Add any additional keymaps here
 --
 -- Asignar Ctrl + A para seleccionar todo
-vim.api.nvim_set_keymap("n", "<C-a>", "VG", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-a>", "ggVG", { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap("n", "-", ":Oil<CR>", { noremap = true, silent = true })
